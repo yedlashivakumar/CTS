@@ -1,0 +1,224 @@
+🚗 Welcome to Smart Parking Lot Management System 🚗
+---------------------------------------------------
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+1
+Enter Owner Name: Shiva
+Select Vehicle Type:
+1. Car
+2. Bike
+1
+Select Zone:
+1. VIP
+2. Regular
+3. TwoWheeler
+1
+✅ Vehicle parked successfully. QR Code: 059B5E23
+🅿️ Assigned Slot: VIP-S1
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+3
+Enter QR Code to search: 059B5E23
+🔍 Vehicle Found:
+Owner: Shiva
+Type: Car
+Entry Time: 2025-08-22T11:44:23.828941100
+Slot ID: VIP-S1
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+4
+📊 Parking Zone Stats:
+Regular Zone → Free: 10, Occupied: 0
+VIP Zone → Free: 4, Occupied: 1
+TwoWheeler Zone → Free: 7, Occupied: 0
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+1
+Enter Owner Name: Bhanu
+Select Vehicle Type:
+1. Car
+2. Bike
+2
+Select Zone:
+1. VIP
+2. Regular
+3. TwoWheeler
+1
+✅ Vehicle parked successfully. QR Code: E8C80BCE
+🅿️ Assigned Slot: VIP-S2
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+4
+📊 Parking Zone Stats:
+Regular Zone → Free: 10, Occupied: 0
+VIP Zone → Free: 3, Occupied: 2
+TwoWheeler Zone → Free: 7, Occupied: 0
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+1
+Enter Owner Name: Anil
+Select Vehicle Type:
+1. Car
+2. Bike
+1
+Select Zone:
+1. VIP
+2. Regular
+3. TwoWheeler
+1
+✅ Vehicle parked successfully. QR Code: 7DE22322
+🅿️ Assigned Slot: VIP-S3
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+4
+📊 Parking Zone Stats:
+Regular Zone → Free: 10, Occupied: 0
+VIP Zone → Free: 2, Occupied: 3
+TwoWheeler Zone → Free: 7, Occupied: 0
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+1
+Enter Owner Name: Ravi Priye
+Select Vehicle Type:
+1. Car
+2. Bike
+1
+Select Zone:
+1. VIP
+2. Regular
+3. TwoWheeler
+1
+✅ Vehicle parked successfully. QR Code: 29351434
+🅿️ Assigned Slot: VIP-S4
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+4
+📊 Parking Zone Stats:
+Regular Zone → Free: 10, Occupied: 0
+VIP Zone → Free: 1, Occupied: 4
+TwoWheeler Zone → Free: 7, Occupied: 0
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+1
+Enter Owner Name: Ravitreni
+Select Vehicle Type:
+1. Car
+2. Bike
+2
+Select Zone:
+1. VIP
+2. Regular
+3. TwoWheeler
+1
+✅ Vehicle parked successfully. QR Code: 67AAE748
+🅿️ Assigned Slot: VIP-S5
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+4
+📊 Parking Zone Stats:
+Regular Zone → Free: 10, Occupied: 0
+VIP Zone → Free: 0, Occupied: 5
+TwoWheeler Zone → Free: 7, Occupied: 0
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+1
+Enter Owner Name: Shubham
+Select Vehicle Type:
+1. Car
+2. Bike
+1
+Select Zone:
+1. VIP
+2. Regular
+3. TwoWheeler
+1
+❌ No available slots in selected zone.
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+4
+📊 Parking Zone Stats:
+Regular Zone → Free: 10, Occupied: 0
+VIP Zone → Free: 0, Occupied: 5
+TwoWheeler Zone → Free: 7, Occupied: 0
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
+2
+Enter QR Code to remove: 059B5E23
+✅ Vehicle removed.
+
+Choose an option:
+1. Park Vehicle
+2. Remove Vehicle
+3. Search Vehicle
+4. View Parking Stats
+5. Exit
