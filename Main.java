@@ -27,25 +27,49 @@ public class Main {
                     System.out.print("Enter Owner Name: ");
                     String owner = sc.nextLine();
 
-                    System.out.println("Select Vehicle Type:");
-                    System.out.println("1. Car");
-                    System.out.println("2. Bike");
-                    int typeChoice = sc.nextInt();
-                    sc.nextLine();
-                    String type = (typeChoice == 1) ? "Car" : "Bike";
+                    String type = "";
+                    while (true) {
+                        System.out.println("Select Vehicle Type:");
+                        System.out.println("1. Car");
+                        System.out.println("2. Bike");
+                        int typeChoice = sc.nextInt();
+                        sc.nextLine(); // consume newline
 
-                    System.out.println("Select Zone:");
-                    System.out.println("1. VIP");
-                    System.out.println("2. Regular");
-                    System.out.println("3. TwoWheeler");
-                    int zoneChoice = sc.nextInt();
-                    sc.nextLine();
-                    String zone = switch (zoneChoice) {
-                        case 1 -> "VIP";
-                        case 2 -> "Regular";
-                        case 3 -> "TwoWheeler";
-                        default -> "Regular";
-                    };
+                        if (typeChoice == 1) {
+                            type = "Car";
+                            break;
+                        } else if (typeChoice == 2) {
+                            type = "Bike";
+                            break;
+                        } else {
+                            System.out.println("⚠️ Invalid selection. Please choose 1 for Car or 2 for Bike.");
+                        }
+                    }
+
+                    String zone = "";
+                    while (true) {
+                        System.out.println("Select Zone:");
+                        System.out.println("1. VIP");
+                        System.out.println("2. Regular");
+                        System.out.println("3. TwoWheeler");
+                        int zoneChoice = sc.nextInt();
+                        sc.nextLine(); // consume newline
+
+                        if (zoneChoice == 1) {
+                            zone = "VIP";
+                            break;
+                        } else if (zoneChoice == 2) {
+                            zone = "Regular";
+                            break;
+                        } else if (zoneChoice == 3) {
+                            zone = "TwoWheeler";
+                            break;
+                        } else {
+                            System.out.println("⚠️ Invalid selection. Please choose 1 for VIP, 2 for Regular, or 3 for TwoWheeler.");
+                        }
+                    }
+
+                    
 
                     String qr;
                     do {
